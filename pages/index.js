@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Head from "next/head";
 import Finance from "./Components/Finance";
 
 // import Slider from "./Components/Slider";
@@ -7,7 +7,10 @@ import Sectionthree from "./Components/Sectionthree";
 
 export default function Home() {
   return (
-    < >
+    <>
+    <Head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </Head>
       <div className="nav">
         <div className="nav_logo" >
           <Image src="/../public/logo.png" alt="Logo" width={50} height={50} style={{ float: "left" }} className="imglogo"></Image>
