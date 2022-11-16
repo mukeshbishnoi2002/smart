@@ -1,6 +1,6 @@
 
 
-  export const Slider = [
+ const Slider = [
                         {
                             id:1,
                             title:"Offbeat Autumn",
@@ -26,3 +26,4 @@
                         
                     ];
 
+export default Slider;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Slider } from './Slider_array.js'
+import  Slider  from './Slider.js'
 import Image from 'next/image';
 function Sectionthree() {
     const [data, setData] = useState(Slider);

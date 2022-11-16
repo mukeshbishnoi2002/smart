@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Head from "next/head";
 import Finance from "./Components/Finance";
-
-// import Slider from "./Components/Slider";
 import Sectionthree from "./Components/Sectionthree";
 
 export default function Home() {
@@ -10,6 +8,9 @@ export default function Home() {
     <>
     <Head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
     </Head>
       <div className="nav">
         <div className="nav_logo" >
