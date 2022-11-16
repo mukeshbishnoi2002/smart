@@ -6,16 +6,22 @@ import { useRef } from 'react';
 function Sectionthree() {
     const val = useRef();
     const [data, setData] = useState(Slider);
-   function iconclick(e){
-            e.target.parentElement.scrollLeft = val.current.clientWidth + 20;
-   }
+    function iconclick(e) {
+        
+        if(e.target.id == "left"){
+            e.target.nextElementSibling.scrollLeft -= e.target.nextElementSibling.firstElementChild.clientWidth + 22;
+        }
+        else{
+            e.target.previousElementSibling.scrollLeft += e.target.previousElementSibling.firstElementChild.clientWidth + 22;
+        }
+
+    }
     return (
         <>
-        <div className='ot'>
-        <i class="fa fa-angle-left" id="ico" onClick={(e)=>iconclick(e)}></i>
-        <i class="fa fa-angle-right" ></i>
 
-        <div className='outer' id="out">
+
+            <div className='outer' id="out">
+                <i className="fa fa-angle-left" id="left" onClick={(e) => iconclick(e)}></i>
                 <div className='grid_container_slider' id='ten'>
 
                     {
@@ -23,7 +29,7 @@ function Sectionthree() {
                             const { holiday, id, place, img, title } = items;
                             return (
                                 <div className="slider_item" ref={val} id='one' key={id}>
-                                    <Image src={img} height={365} width={365} className="image" alt="name"/>
+                                    <Image src={img} height={365} width={365} className="image" alt="name" />
                                     <div className='slide_item_content'>
                                         <p>{title}</p>
                                         <p>{holiday}</p>
@@ -35,12 +41,14 @@ function Sectionthree() {
                     }
 
                 </div>
-               
+
+                <i className="fa fa-angle-right" onClick={(e) => iconclick(e)} id="right"></i>
+
             </div>
-        </div>
-           
-<Script src='sr.js' />
-           
+
+
+            <Script src='sr.js' />
+
         </>
 
     )
