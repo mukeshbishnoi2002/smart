@@ -1,0 +1,38 @@
+@media screen and (max-width:1024px) {
+   
+      .riverside {
+        font-size: 19px ;
+      }
+      
+      .riverside_para {
+        font-size: 16.6px;
+      }
+      /* ======================================= */
+      .section_five_main_heading{
+        font-size: 50px;
+        margin-bottom: 40px;
+      }
+      .main_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3,380px);
+      }
+      
+      .item_text_align{
+        font-size: 28px;
+        line-height: 120%;  
+      }
+      .item_text_p{
+        font-size: 21px;
+        line-height: 154%;
+        margin-top: 9px;
+      }
+      .item_four{
+        background-size: 46%;
+      }
+      .item_five{
+        background-size: 86%;
+      }
+      
+
+}

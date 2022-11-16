@@ -1,0 +1,81 @@
+@media screen and (max-width:500px){
+   
+    .nav_logo_text {
+        
+        margin-left: 13px;
+        font-size: 18px;
+      }
+    .mainLine {
+        font-size: 24px;
+        letter-spacing: 2px;
+      }
+      .plan_button {
+        width: 200px;
+        font-size: 14px;
+        bottom: -20px;
+        padding: 8px 10px;
+        border-radius: 20px;
+      }
+        
+.finance {
+  padding: 80px 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 40px;
+  text-align: center;
+  width: 100%;
+
+}
+      .main_body {
+        width: 95%;
+        margin: auto;
+      }
+      .section_three_heading {
+        font-size: 30px;
+      }
+      .trip_plans_p{
+        font-size: 17px;
+        float: left;
+        line-height: 28px;
+      }
+      .section_four_heading{
+        font-size: 34px;
+      }
+      .bbq{
+        font-size: 20px !important;
+      }
+      .riverside{
+        font-size: 17px !important;
+      }
+      .section_four{
+        margin-bottom: 60px !important;
+      }
+      .main_grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 277px 200px 328px 200px 265px !important;
+        text-align: center;
+      }
+      .section_five_main_heading{
+        font-size: 42px;
+      }
+      .section_five_text_width_item_one{
+        width: 100% !important;
+        margin: auto;
+        }
+        .section_five_text_width_item_two{
+          width: 100% !important;
+          margin: auto;
+          }
+          .item_text_align{
+            font-size: 21px !important;
+          }
+          .item_text_p{
+            font-size: 18px !important;
+          }
+          
+          .grid_container_slider{
+            display: grid;
+            grid-template-columns: repeat(3, 100%);
+            }
+     
+  }

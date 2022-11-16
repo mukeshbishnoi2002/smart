@@ -1,0 +1,138 @@
+@media screen and (max-width:768px) {
+  .nav_bar {
+    display: none;
+  }
+
+  .mainLine {
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+
+  .hero {
+    background-position: 60%;
+  }
+  
+.finance {
+  padding: 80px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 40px;
+  text-align: center;
+  width: 100%;
+
+}
+.finance_heading {
+  font-size: 14px;
+  margin: 8px 0px 6px 0px;
+}
+.finance_text {
+  font-size: 12px;
+}
+.finance_img{
+  width: 35px;
+  height: 35px;
+}
+.section_three_heading {
+  font-size: 40px;
+}
+
+.section_four_heading {
+  font-size: 48px;
+  padding: 50px 0px;
+}
+  .grid_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+
+  }
+
+  .section_four_card_one {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+  }
+
+  .food_img {
+    background-image: url("../public/food.png");
+    width: 100%;
+    height: 320px;
+    background-size: cover;
+    background-position: 50%;
+    border-top-right-radius:10px ;
+  }
+
+  .section_four_content {
+    margin-top: 8px !important;
+  }
+
+  .trip_plans {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    border-top: 2px solid #00754A;
+    color: #00754A;
+  }
+  .section_four_card_one_text {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: left;
+    width: 90%;
+    left: 5%;
+    height: 176px;
+    position: relative;
+  }
+  .riverside {
+    font-size: 21px !important;
+  }
+  
+  .riverside_para {
+    font-size: 17.4px !important;
+  }
+
+  .main_grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 377px 200px 500px 200px 400px !important;
+    text-align: center;
+  }
+  .item_two{
+    grid-row-start: 1;
+  }
+  .item_six{
+    grid-row-start: 5;
+  }
+  .section_five_main_heading{
+    margin-bottom: 20px;
+  }
+
+  .footer_inside{
+    display: flex !important;
+    flex-direction: column !important;
+    grid-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    /* margin: 0 0 20px 0; */margin-bottom: 24px;
+  }
+  .copyright{
+    font-size: 12px !important;
+  }
+  .web{
+    font-size: 11px !important;
+  }
+  .mw_img{
+    background-image: url(../public/mmw_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+  }
+
+  .grid_container_slider{
+    display: grid;
+    grid-template-columns: repeat(3, 50%);
+    }
+}

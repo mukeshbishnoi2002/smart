@@ -1,0 +1,41 @@
+@media screen and (max-width:992px) {
+    .nav_bar {
+        display: none;
+    }
+    .hero{
+        background-position: 50%;
+      }
+    .mainLine{
+        font-size: 45px;
+        letter-spacing: 3px;
+       }
+      .riverside {
+        font-size: 15px !important;
+      }
+      
+      .riverside_para {
+        font-size: 15.6px !important;
+      }
+      .bbq {
+        font-size: 24px !important;
+      }
+      
+      .bbq_para {
+        font-size: 16px !important;
+      }
+      .main_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3,310px) !important;
+      }
+      .item_text_p{
+        font-size: 18px !important;
+        line-height: 154%;
+        margin-top: 9px;
+      }
+      .section_five_text_width_item_one{
+        width: 80% !important;
+        margin: auto;
+        }
+   
+}
